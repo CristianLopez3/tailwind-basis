@@ -1,35 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Sizing</title>
-  </head>
-  <body>
-    <!-- Width -->
 
-    <!-- Percentages -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Sizing</title>
+</head>
 
-    <!-- Width of the viewport -->
+<body>
+  <!-- Width -->
+  <div class="bg-black text-white w-12">Hello!</div>
+  <div class="bg-black text-white w-48">Hello!</div>
+  <div class="bg-black text-white w-96">Hello!</div>
 
-    <!-- 100% of container -->
+  <!-- Percentages -->
+  <div class="bg-green-700 text-white w-1/4">Hello!</div>
+  <div class="bg-green-700 text-white w-1/3">Hello!</div>
+  <div class="bg-green-700 text-white w-1/2">Hello!</div>
 
-    <!-- min/max content -->
 
-    <!-- Arbitrary width -->
+  <!-- Width of the viewport -->
+  <div class="bg-blue-500 text-white w-screen">Hello!</div>
 
-    <!-- Max Width -->
+  <!-- 100% of container -->
+  <div class="bg-blue-300 text-black w-full">Hello!</div>
 
-    <!-- Height (Most of the same options as widths) -->
+  <!-- min/max content -->
+  <div class="bg-blue-300 text-black w-full">Hello!</div>
 
-    <!-- Min Height -->
+  <!-- Arbitrary width -->
+  <div class="bg-yellow-300 text-black w-[300px]">Hello!</div>
 
-    <!-- Max Height -->
+  <!-- Max Width -->
+  <div class="bg-gray-500 text-white  max-w-sm mx-auto">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, aspernatur? Perferendis necessitatibus eveniet
+    sint reprehenderit laboriosam! Distinctio consectetur minima saepe non, nobis quisquam alias sapiente asperiores, id
+    esse vel. Dicta?
+  </div>
 
-    <!-- Full screen height -->
-  </body>
+  <!-- Height (Most of the same options as widths) -->
+  <div class="flex items-end">
+    <div class="bg-orange-500 w-20 h-24">Hello?</div>
+    <div class="bg-orange-500 w-20 h-32">Hello?</div>
+    <div class="bg-orange-500 w-20 h-48">Hello?</div>
+    <div class="bg-orange-500 w-20 h-64">Hello?</div>
+    <div class="bg-orange-500 w-20 h-96">Hello?</div>
+  </div>
+
+
+  <!-- Min Height -->
+
+  <!-- Max Height -->
+
+  <!-- Full screen height -->
+  <div class="bg-blue-300 text-white h-screen">
+    <div class="flex items-center text-black">Hello from a screen sizing</div>
+  </div>
+
+
+</body>
+
 </html>
 
 <!-- 
