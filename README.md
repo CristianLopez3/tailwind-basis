@@ -3,7 +3,7 @@
 My repo of the udemy course with Brad Traversy, I personally recommended it.
 
 ## commands
-
+Basic commands to install and configurate tailwind, if you wanna see more complicate stuff, you can go into the folders and read it
 ```npm 
   npm init -y ## create a package.json in our folder
   npm install -D tailwindcss
