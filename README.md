@@ -1,5 +1,8 @@
 # Tailwind 
 
+Go and take a look at the things that I develop throught this course with tailwind
+<a target="_black" href="" > CLICK HERE :computer </a>
+
 My repo of the udemy course with Brad Traversy, I personally recommended it.
 
 ## commands
